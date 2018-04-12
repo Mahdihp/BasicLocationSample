@@ -121,6 +121,7 @@ public class MainActivity extends AppCompatActivity {
 //        } else {
 //            getLastLocation();
 //        }
+        System.out.println("This is Master branch");
         checkDexter();
 
     }
