@@ -137,7 +137,6 @@ public class MainActivity extends AppCompatActivity {
                         if (!gps.canGetLocation()) {
                             gps.showSettingsAlert();
                         } else {
-
                             mLatitudeText.setText(String.format(Locale.ENGLISH, "%s: %f",
                                     mLatitudeLabel,
                                     gps.getLatitude()));
