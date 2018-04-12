@@ -120,6 +120,7 @@ public class MainActivity extends AppCompatActivity {
 //        } else {
 //            getLastLocation();
 //        }
+        System.out.println("BasicLocation_2");
         checkDexter();
 
     }
